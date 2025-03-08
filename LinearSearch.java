@@ -11,13 +11,13 @@ public class LinearSearch {
         if (n == 0){
             return -1;
         }
-
+// to find the element's value
         for (int elementValue : arr){
             if (elementValue == target){
                 return elementValue;
             }
         }
-
+// to find the index of the element
         for (int index = 0; index < n; index++){
             int elementValue = arr[index];
             if (elementValue == target){
